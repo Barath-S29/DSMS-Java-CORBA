@@ -1,0 +1,7 @@
+addShare → Share added successfully: Equity-NYKM110325
+listShareAvailability → [Share ID: NYKM110325, Type: Equity, Available: 200]
+Share: TOKM110325, Type: Equity, Available: 100
+Share: LONM110325, Type: Equity, Available: 200
+listShareAvailability → [Share ID: NYKM110325, Type: Equity, Available: 100]
+Share: TOKM110325, Type: Equity, Available: 100
+Share: LONM110325, Type: Equity, Available: 200

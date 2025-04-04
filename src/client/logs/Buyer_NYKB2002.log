@@ -1,0 +1,10 @@
+purchaseShare → Purchase successful. You bought 100 of Equity-NYKM110325
+getShares → Your Shares:
+NewYork Market Shares:
+[Share: Equity-NYKM110325, Owned: 100]
+
+swapShares → Cross-market swap successful. Swapped 100 shares of Equity-LONM110325
+getShares → Your Shares:
+London Market Shares:
+[Share: Equity-LONM110325, Owned: 100]
+

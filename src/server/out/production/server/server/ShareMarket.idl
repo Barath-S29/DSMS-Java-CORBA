@@ -1,0 +1,21 @@
+module ShareMarket {
+    interface Server {
+        // Admin Operations
+        string addShare(in string shareID, in string shareType, in long capacity);
+        string removeShare(in string shareID, in string shareType);
+        string listShareAvailability(in string shareType);
+
+        string purchaseRemoteShare(in string buyerID, in string shareID, in string shareType,
+                                  in long shareCount, in string targetMarket);
+        string sellRemoteShare(in string buyerID, in string shareID, in string shareType,
+                             in long shareCount, in string targetMarket);
+
+        // Buyer Operations
+        string purchaseShare(in string buyerID, in string shareID, in string shareType, in long shareCount);
+        string getShares(in string buyerID);
+        string sellShare(in string buyerID, in string shareID, in long shareCount);
+
+        string swapShares(in string buyerID, in string oldShareID, in string oldShareType,
+                         in string newShareID, in string newShareType);
+    };
+};

@@ -1,0 +1,5 @@
+[2025-03-11 21:02:59] Add Share | Params: ShareID: NYKM110325, ShareType: Equity, Capacity: 200 | Status: Successfully Completed
+[2025-03-11 21:03:53] Purchase Share | Params: BuyerID: NYKB2002, ShareID: NYKM110325, ShareType: Equity, Quantity: 100 | Status: Successfully Completed
+[2025-03-11 21:03:55] Get Shares | Params: BuyerID: NYKB2002 | Status: Successfully Completed
+[2025-03-11 21:11:29] Cross-Market Swap | Params: BuyerID: NYKB2002, OldShareID: NYKM110325, NewShareID: LONM110325, Target: London | Status: Successfully Completed
+[2025-03-11 21:11:33] Get Shares | Params: BuyerID: NYKB2002 | Status: Successfully Completed
